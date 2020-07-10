@@ -58,9 +58,14 @@ var Vingador = /*#__PURE__*/function (_Pessoa) {
 }(Pessoa);
 
 var thor = new Vingador("Thor", "1,85", "100Kg", ["Super Força", "Raio"], true, true);
+var ironMan = new Vingador("ironMan", "1,77", "85Kg", ["Voo", "Armamento Pesado"]);
 
 document.getElementById("lutar").onclick = function () {
   thor.lutar();
+};
+
+document.getElementById("lutar2").onclick = function () {
+  ironMan.lutar();
 };
 
 var OperacoesMatematicas = /*#__PURE__*/function () {
